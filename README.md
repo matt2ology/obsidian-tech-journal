@@ -1,1 +1,1 @@
-# obsidian-tech-journal
+# Tech Journal
