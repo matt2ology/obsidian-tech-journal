@@ -1,0 +1,61 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Default",
+	"behavior": "create",
+	"noteContentFormat": "\n{{content}}",
+	"properties": [
+		{
+			"name": "UID",
+			"value": "{{date|date:\\\"YYYYMMDDTHHmm\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "note-type",
+			"value": "Reference",
+			"type": "text"
+		},
+		{
+			"name": "note-created-on",
+			"value": "{{date}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author|split:\\\", \\\"|wikilink|join}}",
+			"type": "text"
+		},
+		{
+			"name": "published-date",
+			"value": "{{published|date:\\\"YYYY-MM-DD\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "description",
+			"value": "{{description}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "clippings, inbox-review-later",
+			"type": "multitext"
+		},
+		{
+			"name": "processed",
+			"value": "false",
+			"type": "checkbox"
+		}
+	],
+	"triggers": [],
+	"noteNameFormat": "OBWCL - {{title}}",
+	"path": "Clippings"
+}

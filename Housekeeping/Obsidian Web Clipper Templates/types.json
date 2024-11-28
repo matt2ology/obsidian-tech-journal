@@ -1,0 +1,14 @@
+{
+  "types": {
+    "title": "text",
+    "source": "text",
+    "author": "text",
+    "description": "text",
+    "tags": "multitext",
+    "UID": "text",
+    "note-type": "text",
+    "published-date": "text",
+    "note-created-on": "text",
+    "processed": "checkbox"
+  }
+}

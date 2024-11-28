@@ -1,0 +1,56 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Articles Reference Note Tech Journal",
+	"behavior": "create",
+	"noteContentFormat": "\n## Description\n\n{{description}}\n\n## Highlights\n\n{{content}}",
+	"properties": [
+		{
+			"name": "UID",
+			"value": "{{date|date:\\\"YYYYMMDDTHHmm\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "note-type",
+			"value": "Reference",
+			"type": "text"
+		},
+		{
+			"name": "note-created-on",
+			"value": "{{date|date:\\\"YYYY-MM-DD (dddd) hh:mmA\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author|split:\\\", \\\"|wikilink|join}}",
+			"type": "text"
+		},
+		{
+			"name": "published-date",
+			"value": "{{published|date:\\\"YYYY-MM-DD\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "clippings, inbox-review-later",
+			"type": "multitext"
+		},
+		{
+			"name": "processed",
+			"value": "false",
+			"type": "checkbox"
+		}
+	],
+	"triggers": [],
+	"noteNameFormat": "OBWCL - {{author}} - {{title}}",
+	"path": "01 References/Articles"
+}

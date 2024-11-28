@@ -1,0 +1,58 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "YouTube Video Literature Notes Tech Journal",
+	"behavior": "create",
+	"noteContentFormat": "\n## YouTube: {{schema:name}}\n\n![{{schema:name}}]({{url}})\n\nDescription: {{meta:name:description}}\n\n## Highlights",
+	"properties": [
+		{
+			"name": "UID",
+			"value": "{{date|date:\\\"YYYYMMDDTHHmm\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "note-type",
+			"value": "Literature",
+			"type": "text"
+		},
+		{
+			"name": "note-created-on",
+			"value": "{{date}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{schema:@VideoObject:author|wikilink}}",
+			"type": "text"
+		},
+		{
+			"name": "published-date",
+			"value": "{{schema:uploadDate|date:\\\"YYYY-MM-DD\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "clippings, inbox-review-later/YouTube",
+			"type": "multitext"
+		},
+		{
+			"name": "processed",
+			"value": "false",
+			"type": "checkbox"
+		}
+	],
+	"triggers": [
+		"https://www.youtube.com/watch?v="
+	],
+	"noteNameFormat": "OBWCL - {{author}} - {{title}}",
+	"path": "02 Literature Notes"
+}
