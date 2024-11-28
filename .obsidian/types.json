@@ -1,0 +1,15 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "created-on": "text",
+    "cssclasses": "multitext",
+    "date": "datetime",
+    "kindle-sync": "text",
+    "note-type": "text",
+    "related-notes": "multitext",
+    "tags": "tags",
+    "UID": "text",
+    "related-topics": "multitext",
+    "answered": "checkbox"
+  }
+}
