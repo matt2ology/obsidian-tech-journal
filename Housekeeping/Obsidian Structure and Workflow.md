@@ -46,7 +46,7 @@ Reference Notes ← Literature Notes → Permanent Notes → Published Works
                     Question Notes ↗
 ```
 
-#### Reference Notes Are Important when:
+#### Reference Notes Are Important when
 
 1. **Complex or Dense Material:** For sources with intricate arguments or lots of data, Reference Notes help you organize key details before interpreting them.
 2. **Collaborative Context:** If you’re sharing insights or need to cite sources, having detailed Reference Notes ensures accuracy.
