@@ -1,19 +1,19 @@
 {
-  "showLineNumber": true,
-  "vimMode": true,
-  "useTab": false,
-  "tabSize": 4,
   "alwaysUpdateLinks": true,
-  "newFileLocation": "folder",
-  "newFileFolderPath": "_inbox",
-  "showUnsupportedFiles": true,
   "attachmentFolderPath": "attachments",
+  "newFileFolderPath": "_inbox",
+  "newFileLocation": "folder",
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
   },
+  "showLineNumber": true,
+  "showRibbon": true,
+  "showUnsupportedFiles": true,
+  "tabSize": 4,
   "useMarkdownLinks": false,
-  "showRibbon": true
+  "useTab": false,
+  "vimMode": true
 }
