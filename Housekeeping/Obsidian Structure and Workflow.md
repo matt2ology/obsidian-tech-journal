@@ -40,7 +40,8 @@ This process ensures a balance between **active learning** (Feynman Technique), 
 - Question Notes can link to any note type (Reference, Literature, Permanent) depending on where the insights lead.
 
 ```plaintext
-Reference Notes → Literature Notes → Permanent Notes → Published Works
+Reference Notes ← Literature Notes → Permanent Notes → Published Works
+                   Permanent Notes ↗
                   Literature Notes ↗
                     Question Notes ↗
 ```
