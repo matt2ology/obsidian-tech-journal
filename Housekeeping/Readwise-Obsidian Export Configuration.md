@@ -52,7 +52,7 @@ Weird characters or overly-long file names don't break dropbox or git, since Rea
 ## Highlight
 
 ```Jinja2
-{% if highlight_location == "View Highlight" %}### id{{ highlight_id }} {% elif highlight_location == "View Tweet" %}### id{{ highlight_id }}{% else %}### {{highlight_location}}{% endif %}
+{% if highlight_location == "View Highlight" %}### id{{ highlight_id }}{% elif highlight_location == "View Tweet" %}### id{{ highlight_id }}{% else %}### {{highlight_location}}{% endif %}
 
 > {{ highlight_text }} {% if highlight_location and highlight_location_url %}
 > \- [({{highlight_location}})]({{highlight_location_url}}){% elif highlight_location %}({{highlight_location}}){% endif %}{% if highlight_note %}
