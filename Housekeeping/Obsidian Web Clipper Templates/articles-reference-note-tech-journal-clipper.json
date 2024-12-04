@@ -41,7 +41,7 @@
 		},
 		{
 			"name": "tags",
-			"value": "clippings, inbox-review-later",
+			"value": "clippings, inbox-review-later/articles",
 			"type": "multitext"
 		},
 		{
