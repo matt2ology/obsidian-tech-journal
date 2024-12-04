@@ -14,7 +14,7 @@ related-notes:
 
 > Readwise: `RDWSE`
 
-```plaintext
+```Jinja2
 RDWSE - {{author|truncate(120)}} - {{title|replace(""","")|replace(""","")|replace("'","")|replace("'","")|truncate(127)}}
 ```
 
@@ -22,13 +22,13 @@ Weird characters or overly-long file names don't break dropbox or git, since Rea
 
 ## Page Title
 
-```plaintext
+```Jinja2
 ## {{ full_title }}
 ```
 
 ## Page Metadata
 
-```plaintext
+```Jinja2
 {% if image_url -%}
 
 ![rw-book-cover]({{image_url}})
@@ -41,7 +41,7 @@ Weird characters or overly-long file names don't break dropbox or git, since Rea
 
 ## Highlights Header
 
-```plaintext
+```Jinja2
 {% if is_new_page %}
 ## Highlights
 {% elif has_new_highlights -%}
@@ -51,7 +51,7 @@ Weird characters or overly-long file names don't break dropbox or git, since Rea
 
 ## Highlight
 
-```plaintext
+```Jinja2
 {% if highlight_location == "View Highlight" %}### id{{ highlight_id }} {% elif highlight_location == "View Tweet" %}### id{{ highlight_id }} {% else %}### {{highlight_location}}{% endif %}
 
 > {{ highlight_text }} {% if highlight_location and highlight_location_url %}
@@ -64,7 +64,7 @@ Weird characters or overly-long file names don't break dropbox or git, since Rea
 
 ## YAML front matter
 
-```plaintext
+```Jinja2
 title: {{title}}
 note-type: Reference
 note-created-on: {{date}}
