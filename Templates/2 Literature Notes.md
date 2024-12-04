@@ -1,12 +1,12 @@
 ---
 title: "{title}"
-aliases: 
+aliases:
 UID: "{{date:YYYYMMDDTHHmm}}"
 note-type: Literature
 note-created-on: "{{time:YYYY-MM-DD}} {{date:(dddd)}} {{time:hh:mmA}}"
-author: 
-source: 
-related-topics: 
+author:
+source:
+related-topics:
 tags:
 ---
 
@@ -16,10 +16,9 @@ Reference note:
 
 ### Summary
 
-
 ## What Stood Out to Me
 
-1. My understanding and interpretation of the passage/reference/quote written in my own words 
+1. My understanding and interpretation of the passage/reference/quote written in my own words
 
 ## Questions/Notes for Later
 
