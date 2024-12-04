@@ -7,7 +7,7 @@
 		{
 			"name": "UID",
 			"value": "{{date|date:\\\"YYYYMMDDTHHmm\\\"}}",
-			"type": "date"
+			"type": "text"
 		},
 		{
 			"name": "title",
