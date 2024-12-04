@@ -62,6 +62,45 @@ Weird characters or overly-long file names don't break dropbox or git, since Rea
 {% endif %}
 ```
 
+### Readable Breakdown of the Highlights Block
+
+> Display highlight location or a fallback ID if it's a default value
+>
+> > ```Jinja2
+> > {% if highlight_location == "View Highlight" %}
+> >     ### id{{ highlight_id }}
+> > {% elif highlight_location == "View Tweet" %}
+> >     ### id{{ highlight_id }}
+> > {% else %}
+> >     ### {{ highlight_location }}
+> > {% endif %}
+> > ```
+>
+> Display the highlight text, followed by an optional location link or text
+>
+> > ```Jinja2
+> > \> {{ highlight_text }}
+> > {% if highlight_location and highlight_location_url %}
+> >     \> \- \[({{ highlight_location }})\]({{ highlight_location_url }})
+> > {% elif highlight_location %}
+> >     \> \- ({{ highlight_location }})
+> > {% endif %}
+> > ```
+>
+> Display a note, prefixed by the location link or text if available
+>
+> > ```Jinja2
+> > {% if highlight_note %}
+> >     **Initial thought on:**
+> >     {% if highlight_location and highlight_location_url %}
+> >         \[({{ highlight_location }})\]({{ highlight_location_url }})
+> >     {% elif highlight_location %}
+> >         ({{ highlight_location }})
+> >     {% endif %}
+> >         {{ highlight_note }}
+> > {% endif %}
+> > ```
+
 ## YAML front matter
 
 ```Jinja2
