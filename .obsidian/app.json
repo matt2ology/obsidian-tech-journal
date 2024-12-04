@@ -13,7 +13,7 @@
   "showRibbon": true,
   "showUnsupportedFiles": true,
   "tabSize": 4,
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "useTab": false,
   "vimMode": true
 }
