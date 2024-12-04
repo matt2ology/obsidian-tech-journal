@@ -7,11 +7,12 @@ note-created-on: "{{time:YYYY-MM-DD}} {{date:(dddd)}} {{time:hh:mmA}}"
 author: 
 source: 
 related-topics: 
-reference-note: 
 tags:
 ---
 
 ## Literature Notes on {title}
+
+Reference note:
 
 ### Summary
 
