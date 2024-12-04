@@ -57,7 +57,7 @@ Weird characters or overly-long file names don't break dropbox or git, since Rea
 > {{ highlight_text }} {% if highlight_location and highlight_location_url %}
 > \- [({{highlight_location}})]({{highlight_location_url}}){% elif highlight_location %}({{highlight_location}}){% endif %}{% if highlight_note %}
 
-**Initial thought on:** {% if highlight_location and highlight_location_url %}[({{highlight_location}})]({{highlight_location_url}}){% elif highlight_location %}({{highlight_location}}){% endif %}
+**Initial thought or note on:** {% if highlight_location and highlight_location_url %}[({{highlight_location}})]({{highlight_location_url}}){% elif highlight_location %}({{highlight_location}}){% endif %}
 {{ highlight_note }}
 {% endif %}
 ```
@@ -91,7 +91,7 @@ Weird characters or overly-long file names don't break dropbox or git, since Rea
 >
 > > ```Jinja2
 > > {% if highlight_note %}
-> >     **Initial thought on:**
+> >     **Initial thought or note on:**
 > >     {% if highlight_location and highlight_location_url %}
 > >         \[({{ highlight_location }})\]({{ highlight_location_url }})
 > >     {% elif highlight_location %}
