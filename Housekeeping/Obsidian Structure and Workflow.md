@@ -19,7 +19,7 @@ This process ensures a balance between **active learning** (Feynman Technique), 
 2. **Literature Notes:** Contain your interpretations and insights from reference notes
 3. **Permanent Notes:** Atomic, standalone ideas written in simple and clear language
 4. **Content Creation:** Aggregate permanent notes to create content for external sharing
-5. **Housekeeking/Templates:** Store reusable note templates
+5. **Housekeeping/Templates:** Store reusable note templates
 6. **Resources:** Include guides, templates, or other reference material related to the workflow
 
 ### Note Taking Workflow
